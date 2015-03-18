@@ -1,0 +1,25 @@
+{
+  "input" : {
+    "count": 3,
+    "eq_bands": [125, 750, 4000],
+    "additional_processors": {
+      "gate" : {
+        "threshold": {"type" : "level", "default" : 63 },
+        "power":  {"type" : "switch", "default" : false }
+      }
+    }
+  },
+  "output" : {
+    "count" : 2,
+    "eq_bands": [62.5, 125, 250, 500, 1000, 2000, 4000, 8000],
+    "additional_processors": {
+      "compressor" : {
+        "threshold": {"type" : "level", "default" : 63 },
+        "gain": {"type" : "level", "default" : 63 }
+      },
+      "limiter": {
+        "ceiling": {"type" : "level", "default" : 63 }
+      }
+    }
+  }
+}
