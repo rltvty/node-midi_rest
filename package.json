@@ -4,7 +4,8 @@
   "dependencies": {
     "rest_base": "0.0.1",
     "midi": "0.9.x",
-    "midi-help": "0.2.x"
+    "midi-help": "0.2.x",
+    "request": "2.55.x"
   },
   "scripts": {
     "test": "make test",
