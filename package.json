@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "dependencies": {
     "rest_base": "0.0.1",
-    "midi": "0.9.x"
+    "midi": "0.9.x",
+    "midi-help": "0.2.x"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node index.js"
   },
   "devDependencies": {
   },
